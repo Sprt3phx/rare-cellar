@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The Rare Cellar is a vampire-exclusive dining experience, serving rare blood vintages in a Victorian-inspired underground lounge.">
+    <meta name="keywords" content="vampire, rare blood, Victorian restaurant, exclusive dining, The Rare Cellar">
+
+    <title>The Rare Cellar</title>
+    <link rel="stylesheet" href="styled-landing.css">
+</head>
+<body>
+
+    <header class="rare-header">
+            <h1 class="logo">The Rare Cellar</h1>
+
+
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#about">Welcome</a></li>
+                <li><a href="#tonights-pour">Tonight's Pour</a></li>
+                <li><a href="#entry-request">Secure Your Seat</a></li>
+                <li><a href="#">The Lore</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <h2 class="tag-line">Only the rarest vintages are served fresh</h2>
+    </header>
+    
+    <main>
+        <section id="about">
+            <h2>About the Experience</h2>
+            <p>Hidden beneath the surface lies a sanctuary for the discerning. The Rare Cellar is not merely a place-it is an experience. Here, indulgence is ritual, and rarity is revered. Our guests are chosen, not invited. Our menu is whispered, not printed.</p>
+        </section>
+
+
+        <section id="tonights-pour">
+            <h2>Selections from the Cellar</h2>
+            <div class="wine-glasses">
+                <div class="glass">
+                    <div class="glass-wrapper">
+                        <img src="res/wine-cup.jpg" alt="Glass of A+ blood, deep crimson with a hint of vintage">
+                    <span class="blood-label">AB-</span>
+                    </div>
+                </div>
+
+                <div class="glass">
+                    <div class="glass-wrapper">
+                        <img src="res/wine-cup.jpg" alt="Glass of O- blood, dark and rich with a hint of mystery">
+                     <span class="blood-label">O-</span>
+                    </div>
+                </div>
+
+                <div class="glass">
+                    <div class="glass-wrapper">
+                        <img src="res/wine-cup.jpg" alt="Glass of B- blood, bold and aged">
+                     <span class="blood-label">B-</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section id="entry-request" class="entry-request-section">
+            <p class="entry">Only the rarest may dine. Submit your credentials for consideration.</p>
+            <form>
+                <label for="name">Alias</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="blood">Preferred Blood Type</label>
+                <select id="blood" name="blood">
+                    <option value="select">Choose One...</option>
+                    <option value="a+">AB-</option>
+                    <option value="o-">O-</option>
+                <option value="b-">B-</option>
+            </select>
+
+            <label for="message">Why do you seek entry?</label>
+            <textarea id="message" name="message" rows="4" cols="40" required></textarea>
+
+            <div class="form-buttons">
+
+                     <button type="submit" class="button submit-button">Request Entry</button>
+
+                <button type="reset" id="clear"  class="button reset-button">Clear</button>
+            </div>
+            
+        </form>
+    </section>
+    </main>
+
+    <footer id="contact">
+        <p>In Tenebris Luxuriae</p>
+        <p>© 2025 The Rare Cellar. All rights reserved.</p>
+    </footer>
+    
+</body>
+</html>
